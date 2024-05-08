@@ -1,0 +1,29 @@
+.day {
+  cursor: pointer;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background: #EDEDED;
+  margin: 1px;
+}
+
+.day:hover {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.more1 {
+  background: #ACD5F2;
+}
+
+.more10 {
+  background: #7FA8C9;
+}
+
+.more20 {
+  background: #527BA0;
+}
+
+.more30 {
+  background: #254E77;
+}
