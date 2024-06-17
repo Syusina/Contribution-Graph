@@ -1,8 +1,6 @@
-# React + Vite
+# Компонент Contribution Graph
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ьестовое задание, аналог таблицы активности на GitHub.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Дни и месяца должны выстраиваться исходя из текущей даты (сегодняшний день должен находиться в последнем столбце и от него -50 недель)ю
+На графе должны быть 51 столбец (357 дней) и 7 строк (пн-вс)ю

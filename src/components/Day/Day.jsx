@@ -19,7 +19,7 @@ const Day = ({ date, value }) => {
     styleName = 'more1';
   } 
 
-  const handleClick = () => {
+  const handleMove = () => {
     setShowPopup(true);
   };
 
@@ -31,7 +31,7 @@ const Day = ({ date, value }) => {
     <>
       <div
         className={clsx(styles.day, styles[styleName])}
-        onClick={handleClick}
+        onMouseMove={handleMove}
         onMouseLeave={handleLeave}
       >
         {showPopup && <PopUp contributions={value} date={formatDate(date)}/>}
